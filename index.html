@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+        }
+        nav{
+            height: 80px;
+            width: 100%;
+            background-color: white;
+            display: flex;
+            text-align: center;
+        }
+        .ritik{
+            font-family: 'Montserrat', sans-serif;
+            width: 30%;
+            margin-top: 30px;
+        }
+        li {
+            display: inline;
+            margin-left: 50px;
+            color: black;
+        }
+        .navbar{
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+        }
+        .navlist{
+            width: 70%;
+            margin-top: 30px;
+            margin-left: 400px;
+            font-weight: 900;
+        }
+        .firstdiv{
+            width: 100%;
+            display: flex;
+            background-color: black;
+            height: 550px;
+        }
+        .firstdiv1{
+            width: 55%;
+        }
+        .firstdiv2{
+            width: 45%;
+        }
+        .mobile{
+            width: 400px;
+            margin-top: 50px;
+        }
+        .firstdiv11{
+            margin-top: 170px;
+            margin-left: 100px;
+            width: 350px;
+
+        }
+        .firstdiv111{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .firstdiv112{
+            font-size: 12px;
+            color: white;
+            width: 380px;
+            margin-top: 8px;
+        }
+        .button1{
+            background-color: rgb(0, 255, 66);
+            border: none;
+            margin-top: 10px;
+            width: 75px;
+            height: 20px;
+            cursor: pointer;
+        }
+        .button1:hover{
+            background-color: rgb(0, 209, 56);
+            transform: scale(1.1);
+        }
+        .seconddiv{
+            background-color: white;
+            height: 450px;
+            width: 100%;
+            display: flex;
+        }
+        .seconddiv1{
+            margin-top: 75px;
+            width: 100%;
+            text-align: center;
+        }
+        .features{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 31px;
+            font-weight: 800;
+        }
+        .a{
+            font-size: 13px; 
+        }
+        .seconddiv11{
+            text-align: center;
+            display: flex;
+            height: 100px;
+        }
+        .seconddiv12{
+            width: 50%;
+            text-align: center;
+        }
+        .seconddiv121{
+            width: 20%;
+            text-align: right;
+        }
+        .seconddiv122{
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            margin-left: 135px;
+            margin-top: -65px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .seconddiv123{
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            margin-left: 135px;
+            margin-top: 8px;
+            text-align: left;
+            font-size: 13px;
+        }
+        .seconddiv13{
+            width: 43%;
+            text-align: center;
+        }
+        .seconddiv131{
+            width: 10%;
+            text-align: right;
+        }
+        .seconddiv132{
+            font-family: 'Montserrat', sans-serif;
+            width: 90%;
+            margin-left: 70px;
+            margin-top: -65px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .seconddiv133{
+            font-family: 'Montserrat', sans-serif;
+            width: 90%;
+            margin-left: 70px;
+            margin-top: 8px;
+            text-align: left;
+            font-size: 13px;
+        }
+        .seconddiv14{
+            width: 50%;
+            text-align: center;
+        }
+        .seconddiv141{
+            width: 20%;
+            text-align: right;
+        }
+        .seconddiv142{
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            margin-left: 135px;
+            margin-top: -65px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .seconddiv143{
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            margin-left: 135px;
+            margin-top: 8px;
+            text-align: left;
+            font-size: 13px;
+        }
+        .seconddiv15{
+            width: 50%;
+            text-align: center;
+        }
+        .seconddiv151{
+            width: 20%;
+            text-align: right;
+        }
+        .seconddiv152{
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            margin-left: 135px;
+            margin-top: -65px;
+            font-weight: 600;
+            text-align: left;
+        }
+        .seconddiv153{
+            font-family: 'Montserrat', sans-serif;
+            width: 80%;
+            margin-left: 135px;
+            margin-top: 8px;
+            text-align: left;
+            font-size: 13px;
+        }
+        .thirddiv{
+            width: 100%;
+            display: flex;
+        }
+        .thirddiv1{
+            text-align: center;
+            width: 33.33%;
+            height: 449px;
+            width: 449px;
+            background-color: rgb(51, 51, 51);
+        }
+        .thirddiv2{
+            text-align: center;
+            width: 33.33%;
+            height: 449px;
+            width: 451px;
+            background-color: rgb(29, 29, 29);
+        }
+        .thirddiv3{
+            text-align: center;
+            width: 33.33%;
+            height: 449px;
+            width: 449px;
+            background-color: rgb(51, 51, 51);
+        }
+        .b{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            color: white;
+        }
+        .c{
+            font-size: 12px;
+            color: rgb(166, 166, 166);
+        }
+        .d{
+            font-size: 15px;
+            color: white;
+        }
+        .fourthdiv{
+            width: 100%;
+            text-align: center;
+        }
+        .fourthdiv1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 30px;
+            font-weight: 800;
+        }
+        .ourworklist{
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 30px;
+            margin-left: 400px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .fifthdiv{
+            width: 100%;
+        }
+        .fifthdiv1{
+            margin-left: 140px;
+            display: flex;
+        }
+        .fifthdiv11{
+            padding: 50px;
+            padding-left: 60px;
+            margin-left: 11px;
+            height: 130px;
+            width: 12%;
+            background-color: black;
+        }
+        .fifthdiv12{
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 12px;
+            margin-top: 10px;
+            width: 21%;
+            font-size: 15px;
+            font-weight: 800;
+        }
+        .fifthdiv13{
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 12px;
+            width: 21%;
+            font-size: 13px;
+            height: 20px;
+        }
+        .sixthdiv{
+            width: 100%;
+            margin-top: 50px;
+        }
+        .fifthdiv1{
+            margin-left: 140px;
+            display: flex;
+        }
+        .fifthdiv11{
+            padding: 50px;
+            padding-left: 60px;
+            margin-left: 11px;
+            height: 130px;
+            width: 12%;
+            background-color: black;
+        }
+        .fifthdiv12{
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 12px;
+            margin-top: 10px;
+            width: 21%;
+            font-size: 15px;
+            font-weight: 800;
+        }
+        .fifthdiv13{
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 12px;
+            width: 21%;
+            font-size: 13px;
+            height: 20px;
+        }
+        .seventhdiv{
+            display: flex;
+            width: 100%;
+            background-color: rgb(30, 30, 30);
+            height: 95px;
+        }
+        .seventhdiv1{
+            margin-top: 15px;
+            text-align: left;
+            width: 59%;
+            color: white;
+            margin-left: 153px;
+        }
+        .seventhdiv11{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+        .seventhdiv12{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            color: rgb(150, 150, 150);
+        }
+        .seventhdiv2{
+            margin-top: 25px;
+            width: 19%;
+            color: white;
+            display: flex;
+        }
+        .button2{
+            background-color: rgb(19, 19, 19);
+            border: none;
+            margin-top: 10px;
+            width: 120px;
+            height: 30px;
+            cursor: pointer;
+            border: 2px groove black;
+            margin-left: 2px;
+            color: white;
+        }
+        .button2:hover{
+            background-color: rgb(0, 0, 0);
+            transform: scale(1.1);
+        }
+        .button3{
+            background-color: rgb(0, 172, 46);
+            border: none;
+            margin-top: 10px;
+            width: 120px;
+            height: 30px;
+            cursor: pointer;
+            color: white;
+            margin-left: 8px;
+        }
+        .button3:hover{
+            background-color: rgb(0, 209, 56);
+            transform: scale(1.1);
+        }
+        .eightthdiv{
+            display: flex;
+            width: 100%;
+        }
+        .eightthdiv1{
+            margin-left: 155px;
+            width: 12%;
+        }
+        .eightthdiv11{
+            width: 155px;
+            height: 110px;
+            background-color: rgb(30, 30, 30);
+        }
+        .eightthdiv2{
+            width: 27%;
+        }
+        .eightthdiv21{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            letter-spacing: -1px;
+        }
+        .eightthdiv3{
+            width: 12%;
+        }
+        .eightthdiv31{
+            width: 155px;
+            height: 110px;
+            background-color: rgb(30, 30, 30);
+        }
+        .eightthdiv4{
+            width: 27%;
+        }
+        .eightthdiv41{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            letter-spacing: -1px;
+        }
+        .facebook{
+            margin-top: 16px;
+            margin-left: 36px;
+        }
+        .ninethdiv{
+            width: 100%;
+            background-color: rgb(30, 30, 30);
+            display: flex;
+            height: 80px;
+        }
+        .ninethdiv1{
+            width: 50%;
+            margin-top: 29px;
+            margin-left: 153px;
+        }
+        .ninethdiv11{
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .ninethdiv2{
+            width: 28%;
+            margin-top: 17px;
+        }
+        .ninethdiv21{
+            height: 30px;
+            width: 250px;
+        }
+        .ninethdiv22{
+            background-color: rgb(0, 172, 46);
+            border: none;
+            margin-top: 10px;
+            width: 120px;
+            height: 30px;
+            cursor: pointer;
+            color: white;
+            margin-left: -4px;
+        }
+        .ninethdiv21::placeholder{
+            padding-left: 20px;
+            font-size: 15px;
+        }
+        .ninethdiv22:hover{
+            background-color: rgb(0, 209, 56);
+            transform: scale(1.1);
+        }
+        .aa{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            letter-spacing: -1px;
+        }
+        .tenthdiv{
+            border: 3px double red;
+            width: 99.59%;
+            display: flex;
+            height: 200px;
+            text-align: center;
+        }
+        .bb{
+            margin-left: 500px;
+            margin-top: 60px;
+            font-size: 55px;
+        }
+        .bb:hover{
+            transform: scale(1.2);
+            color: red;
+        }
+        .eleventhdiv{
+            width: 100%;
+            height: 175px;
+            display: flex;
+            background-color: rgb(30, 30, 30);
+        }
+        .eleventhdiv1{
+            width: 11%;
+        }
+        .eleventhdiv2{
+            margin-top: 15px;
+            width: 25%;
+            text-align: center;
+        }
+        .cc{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 17px;
+            font-weight: 800;
+        }
+        .cc1{
+            color: rgb(150, 150, 150);
+            font-size: 13px;
+        }
+        .button4{
+            background-color: rgb(19, 19, 19);
+            border: none;
+            width: 120px;
+            height: 30px;
+            cursor: pointer;
+            border: 2px groove black;
+            color: white;
+        }
+        .button4:hover{
+            background-color: rgb(0, 0, 0);
+            transform: scale(1.1);
+        }
+        .eleventhdiv3{
+            margin-top: 15px;
+            width: 25%;
+            text-align: center;
+        }
+        .button5{
+            background-color: rgb(0, 172, 46);
+            border: none;
+            width: 120px;
+            height: 30px;
+            cursor: pointer;
+            color: white;
+        }
+        .button5:hover{
+            background-color: rgb(0, 209, 56);
+            transform: scale(1.1);
+        }
+        .eleventhdiv4{
+            margin-top: 15px;
+            width: 39%;
+            text-align: center;
+        }
+        .dd{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .dd1{
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+        .end{
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            padding-top: 17px;
+        }
+        .end1{
+            color: white;
+            margin-left: 592px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+            <h1 class="ritik">RITIK</h1>
+            <ul class="navlist">
+                <li><a href="javascript:void" class="navbar">Home</a></li>
+                <li><a href="javascript:void" class="navbar">Menu</a></li>
+                <li><a href="javascript:void" class="navbar">Ritik</a></li>
+                <li><a href="javascript:void" class="navbar">Riya</a></li>
+                <li><a href="javascript:void" class="navbar">About</a></li>
+            </ul>
+    </nav>
+    <div class="firstdiv">
+        <div class="firstdiv1">
+            <div class="firstdiv11">
+                <p class="firstdiv111">Sed Ut Perspiciatis Unde Omnis Iste Natus</p>
+                <p class="firstdiv112">Lorem ipsum, dolor sit ametsit amet consectetur sit iste voluptate,  sequi non laudantium eum suscipit ratione. Libero sequi ex sit voluptatibus deleniti.</p>
+                <button class="button1">Ritik</button>
+            </div>
+        </div>
+        <div class="firstdiv2">
+            <img src="mobilepng.png" class="mobile">
+        </div>
+    </div>
+    <div class="seconddiv">
+        <div class="seconddiv1">
+            <p class="features">Features</p>
+            <p class="a">Lorem ipsum ritik dolor sit, amet consectetur adipisicing ritik elit. Nulla at quod <br> non ritik cum ritik dolorum esse ipsum ritik ex sapiente eius ritik tempore.</p>
+            <br><br>
+            <div class="seconddiv11">
+                <div class="seconddiv12">
+                    <div class="seconddiv121"><img src="circlecheck.svg" width="60px" class="check"></div>
+                    <div class="seconddiv122">Lorem ipsum dolor sit</div>
+                    <div class="seconddiv123">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sequi quae sunt? Libero recusandae nulla aliquid. Praesentium asperiores dolorem cupiditate.</div>
+                </div>
+                <div class="seconddiv13">
+                    <div class="seconddiv131"><img src="circlecheck.svg" width="60px" class="check"></div>
+                    <div class="seconddiv132">Lorem ipsum dolor sit</div>
+                    <div class="seconddiv133">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sequi quae sunt? Libero recusandae nulla aliquid. Praesentium asperiores dolorem cupiditate.</div>
+                </div>
+            </div>
+            <div class="seconddiv11">
+                <div class="seconddiv12">
+                    <div class="seconddiv121"><img src="circlecheck.svg" width="60px" class="check"></div>
+                    <div class="seconddiv122">Lorem ipsum dolor sit</div>
+                    <div class="seconddiv123">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sequi quae sunt? Libero recusandae nulla aliquid. Praesentium asperiores dolorem cupiditate.</div>
+                </div>
+                <div class="seconddiv13">
+                    <div class="seconddiv131"><img src="circlecheck.svg" width="60px" class="check"></div>
+                    <div class="seconddiv132">Lorem ipsum dolor sit</div>
+                    <div class="seconddiv133">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sequi quae sunt? Libero recusandae nulla aliquid. Praesentium asperiores dolorem cupiditate.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="thirddiv">
+        <div class="thirddiv1">
+            <br><br><br><br><br><br><br>
+            <img src="facebookpng.png" width="55px"><br>
+            <b class="b">Facebook handles</b><br>
+            <p class="c">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ab  distinctio has quaerat eos accusantium ullam ritik ritik ritik obcaecati quaerat eos accusantium ullam eligendi ritik quasi.</p><br>
+            <p class="d">Facebook</p>
+        </div>
+        <div class="thirddiv2">
+            <br><br><br><br><br><br><br>
+            <img src="insta2.webp" width="50px"><br>
+            <b class="b">Instagram handles</b><br>
+            <p class="c">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ab  distinctio has quaerat eos accusantium ullam ritik ritik ritik obcaecati quaerat eos accusantium ullam eligendi ritik quasi.</p><br>
+            <p class="d">Instagram</p>
+        </div>
+        <div class="thirddiv3"><br><br><br><br><br><br><br>
+            <img src="twitter2.png" width="50px"><br>
+            <b class="b">Twitter handles</b><br>
+            <p class="c">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ab  distinctio has quaerat eos accusantium ullam ritik ritik ritik obcaecati quaerat eos accusantium ullam eligendi ritik quasi.</p><br>
+            <p class="d">Twitter</p></div>
+    </div>
+    <br><br><br><br>
+    <div class="fourthdiv">
+        <p class="fourthdiv1">Our Work</p>
+        <p class="a">Lorem ipsum ritik dolor sit, amet consectetur adipisicing ritik elit. Nulla at quod <br> non ritik cum ritik dolorum esse ipsum ritik ex sapiente eius ritik tempore.</p>
+    </div>
+    <ul class="ourworklist">
+        <li><a href="javascript:void" class="navbar">Home</a></li>
+        <li><a href="javascript:void" class="navbar">Menu</a></li>
+        <li><a href="javascript:void" class="navbar">Ritik</a></li>
+        <li><a href="javascript:void" class="navbar">Riya</a></li>
+        <li><a href="javascript:void" class="navbar">About</a></li>
+    </ul>
+    <br><br><br>
+    <div class="fifthdiv">
+            <div class="fifthdiv1">
+                <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+                <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+                <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+                <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+            </div>
+            <div class="fifthdiv1">
+                <div class="fifthdiv12">Ritik Singh</div>
+                <div class="fifthdiv12">Ritik Singh</div>
+                <div class="fifthdiv12">Ritik Singh</div>
+                <div class="fifthdiv12">Ritik Singh</div>
+            </div>
+            <div class="fifthdiv1">
+                <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+                <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+                <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+                <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+            </div>
+
+    </div>
+    <div class="sixthdiv">
+        <div class="fifthdiv1">
+            <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+            <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+            <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+            <div class="fifthdiv11"><img src="cka2.svg" width="137px"></div>
+        </div>
+        <div class="fifthdiv1">
+            <div class="fifthdiv12">Ritik Singh</div>
+            <div class="fifthdiv12">Ritik Singh</div>
+            <div class="fifthdiv12">Ritik Singh</div>
+            <div class="fifthdiv12">Ritik Singh</div>
+        </div>
+        <div class="fifthdiv1">
+            <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+            <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+            <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+            <div class="fifthdiv13">Lorem ipsum dolor sit</div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="seventhdiv">
+        <div class="seventhdiv1">
+            <p class="seventhdiv11">Lorem ipsum dolor sit</p>
+            <p class="seventhdiv12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci nemo incidunt maiores! <br> Mollitia inventore Ritik excepturi est consequuntur dignissimos temporibus corrupti.</p>
+        </div>
+        <div class="seventhdiv2">
+            <button class="button2">Ritik</button>
+            <button class="button3">Ritik</button>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="fourthdiv">
+        <p class="fourthdiv1">Our Blog</p>
+        <p class="a">Lorem ipsum ritik dolor sit, amet consectetur adipisicing ritik elit. Nulla at quod <br> non ritik cum ritik dolorum esse ipsum ritik ex sapiente eius ritik tempore.</p>
+    </div>
+    <br><br>
+    <div class="eightthdiv">
+        <div class="eightthdiv1">
+            <div class="eightthdiv11"><img src="facebookpng.png" width="80px" class="facebook"></div>
+        </div>
+        <div class="eightthdiv2">
+            <p class="eightthdiv21">Lorem ipsum dolor sit</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi facilis cumque aperiam quidem pariatur molestiae alias veritatis, perferendis quo? Voluptate?</p>
+        </div>
+        <div class="eightthdiv3">
+            <div class="eightthdiv31"><img src="insta2.webp" width="80px" class="facebook"></div>
+        </div>
+        <div class="eightthdiv4">
+            <p class="eightthdiv41">Lorem ipsum dolor sit</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi facilis cumque aperiam quidem pariatur molestiae alias veritatis, perferendis quo? Voluptate?</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="eightthdiv">
+        <div class="eightthdiv1">
+            <div class="eightthdiv11"><img src="twitter.png" width="80px" class="facebook"></div>
+        </div>
+        <div class="eightthdiv2">
+            <p class="eightthdiv21">Lorem ipsum dolor sit</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi facilis cumque aperiam quidem pariatur molestiae alias veritatis, perferendis quo? Voluptate?</p>
+        </div>
+        <div class="eightthdiv3">
+            <div class="eightthdiv31"><img src="linkedin.webp" width="80px" class="facebook"></div>
+        </div>
+        <div class="eightthdiv4">
+            <p class="eightthdiv41">Lorem ipsum dolor sit</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi facilis cumque aperiam quidem pariatur molestiae alias veritatis, perferendis quo? Voluptate?</p>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="ninethdiv">
+        <div class="ninethdiv1">
+            <p class="ninethdiv11">Lorem ipsum dolor sit</p>
+        </div>
+        <div class="ninethdiv2">
+            <input type="search" placeholder="search..." class="ninethdiv21">
+            <button class="ninethdiv22">Search</button>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="fourthdiv">
+        <p class="aa">Lorem ipsum dolor sit</p>
+        <p class="a">Lorem ipsum ritik dolor sit, amet consectetur adipisicing ritik elit. Nulla at quod <br> non ritik cum ritik dolorum esse ipsum ritik ex sapiente eius ritik tempore. <br>ritik dolorum amet consectetur adipisicing esse ipsum ritik</p>
+    </div>
+    <br><br>
+    <div class="tenthdiv">
+        <p class="bb">Comming Soon....</p>
+    </div>
+    <br><br>
+    <div class="eleventhdiv">
+        <div class="eleventhdiv1"></div>
+        <div class="eleventhdiv2">
+            <p class="cc">RITIK</p><br>
+            <p class="cc1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos possimus minus debitis adipisci sapiente tempora assumenda odit ritik fugiat ritik voluptatum ritik numquam?</p>
+            <br>
+            <button class="button4">Ritik</button>
+        </div>
+        <div class="eleventhdiv3">
+            <p class="cc">RITIK</p><br>
+            <p class="cc1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos possimus minus debitis adipisci sapiente tempora assumenda odit ritik fugiat ritik voluptatum ritik numquam?</p>
+            <br>
+            <button class="button5">Ritik</button></div>
+        <div class="eleventhdiv4">
+            <p class="dd">Contact us</p><br>
+            <p><a href="javascript:void" class="dd1">Mob. no.</a></p>
+            <p><a href="javascript:void" class="dd1">Email</a></p>
+            <br><br>
+            <a href="javascript:void"><img src="facebookpng.png" width="30px"></a>
+            <a href="javascript:void"><img src="twitter2.png" width="30px"></a>
+            <a href="javascript:void"><img src="linkedin.webp" width="30px"></a>
+        </div>
+        <div class="eleventhdiv5"></div>
+    </div>
+    <div class="end">
+        <p class="end1">Coded by Mr. Ritik.....</p>
+    </div>
+    
+</body>
+</html>
